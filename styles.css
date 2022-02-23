@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 239, 239);
+}
+
+h1 {
+    color: rgb(24,14,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: rgb(24,14,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piano-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.class-bookings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.class-booking-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}

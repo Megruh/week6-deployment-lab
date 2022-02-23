@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Deployment Lab</title>
 </head>
 <body>
     <h1>Piano Lessons with Meg</h1>
-    <img src='https://images.unsplash.com/photo-1514119412350-e174d90d280e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGlhbm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'/>
+    <div class="piano-image-container">
+        <img class="piano-image" src='https://images.unsplash.com/photo-1514119412350-e174d90d280e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGlhbm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'/>
+    </div>
 
     <p>This website is a great way to build your foundation and get started on the piano for free. When you're ready, take the next step with step-by-step courses, live lessons, and a motivational community.</p>
-    
+
+    <form>
+        <div class="class-bookings">Schedule a Lesson
+        <input type="text" class="class-booking-input" placeholder="Full Name">
+        <input type="text" class="class-booking-input" placeholder="Student Age">
+        <input type="text" class="class-booking-input" placeholder="Email Address">
+        <input type="text" class="class-booking-input" placeholder="Phone Number">
+        <button>Submit</button>
+        </div> 
+    </form>
+<script src="/css"></script>   
 </body>
 </html>
